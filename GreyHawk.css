@@ -1,0 +1,157 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 16px 0px;
+    background-image: linear-gradient(to right, rgb(245, 116, 195), rgb(236, 179, 74));
+}
+
+h1 {
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.container{
+    font-family: 'Orbitron', sans-serif;
+}
+
+body, input, textarea{
+    font-family: 'Roboto', sans-serif;
+}
+
+header nav li{
+    display: inline;
+    margin-left: 16px;
+    font-size: 24px;
+}
+
+header nav li a{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Orbitron', sans-serif;
+}
+
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logos img{
+    height: 300px;
+    margin-top: 10px;
+}
+
+img{
+    height: 400px;
+}
+
+.logos img{
+    height: 24px;
+}
+
+.logos li{
+    display: inline;
+}
+
+section .container{
+    align-items: flex-start;
+}
+
+section{
+    padding: 24px;
+}
+
+section h2{
+    margin-bottom: 16px;
+    color:  rgb(236, 179, 74);
+}
+
+section p{
+    margin-bottom: 8px;
+    color: rgb(236, 179, 74);
+}
+
+section .container2{
+    margin-left: 10px;
+}
+
+.lojaImg{
+    border-radius: 20px;
+}
+
+#contato .container{
+    display: block;
+}
+
+.metodos-contato{
+    display: flex;
+    justify-content: space-between;
+}
+
+form input,
+form textarea,
+form button{
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+form textarea{
+    resize: none;
+    height: 180px;
+    background-image: linear-gradient(to right, rgb(245, 116, 195), rgb(236, 179, 74));
+}
+
+.insta li img{
+    height: 24px;
+}
+
+.insta li{
+    display: inline;
+}
+
+section h3{
+    margin-bottom: 16px;
+    color:  rgb(239, 161, 209);
+}
+
+form button{
+    background-image: linear-gradient(to right, rgb(245, 116, 195), rgb(236, 179, 74));
+    color: #000000;
+    font-family: 'Orbitron', sans-serif;
+    border: none;
+    cursor: pointer;
+}
+
+input:focus, textarea:focus{
+    outline-color: rgb(236, 179, 74);
+}
+
+footer{
+    background-image: linear-gradient(to right, rgb(245, 116, 195), rgb(236, 179, 74));
+    padding: 16px 0px;
+    font-family: 'Orbitron', sans-serif;
+}
+
+main{
+    background-color: rgb(245, 221, 189);
+}
+
+form input{
+    background-image: linear-gradient(to right, rgb(245, 116, 195), rgb(236, 179, 74));
+    border: none;
+    cursor: pointer;
+}
